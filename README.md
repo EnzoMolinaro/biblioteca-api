@@ -7,6 +7,18 @@
 
 API REST completa para gerenciamento de bibliotecas desenvolvida com **Spring Boot 3**, **Java 17** e **MySQL**.
 
+## 📑 Sumário
+
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+- [Arquitetura](#️-arquitetura)
+- [Modelo de Dados](#-modelo-de-dados)
+- [Instalação](#-instalação-e-configuração)
+- [Endpoints](#-endpoints-da-api)
+- [Exemplos de Uso](#-exemplos-de-uso)
+- [Roadmap](#-roadmap)
+- [Licença](#-licença)
+
 ## 🎯 Funcionalidades
 
 - ✅ **CRUD Completo** de livros, usuários e empréstimos
