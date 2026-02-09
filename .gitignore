@@ -1,0 +1,207 @@
+# ============================================
+# DEPENDENCIES AND BUILDS
+# ============================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ant
+antBuild/
+
+# IDE
+.apt_generated
+
+# ============================================
+# IDEs
+# ============================================
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Spring Tool Suite
+.springBeans
+.sts4-cache/
+
+# ============================================
+# OPERATING SYSTEM FILES
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# LOGS AND TEMPORARY FILES
+# ============================================
+
+# Logs
+*.log
+logs/
+!logs/.gitkeep
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# ============================================
+# SECURITY SENSITIVE FILES
+# ============================================
+
+# Application properties/configuration
+**/application-*.yml
+**/application-*.yaml
+**/application-*.properties
+!**/application.yml
+!**/application.yaml
+!**/application.properties
+
+# Secrets
+.secrets/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+
+# Keystores
+*.jks
+*.p12
+*.pfx
+*.keystore
+
+# ============================================
+# DATABASE AND DATA FILES
+# ============================================
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+
+# Database dumps
+*.dump
+*.sql
+*.bak
+
+# ============================================
+# TESTING AND COVERAGE
+# ============================================
+
+# JaCoCo
+.jacoco/
+jacoco.exec
+jacoco-it.exec
+
+# Test reports
+**/test-output/
+**/reports/
+**/surefire-reports/
+**/failsafe-reports/
+
+# ============================================
+# DEPLOYMENT AND PACKAGING
+# ============================================
+
+# Packages
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Executables
+*.exe
+*.bin
+
+# ============================================
+# FRAMEWORK SPECIFIC
+# ============================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# ============================================
+# MISC
+# ============================================
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Profiling data
+*.prof
+*.profdata
+
+# Docker
+!docker-compose.yml
+!Dockerfile
+.dockerignore
+docker-compose.*.yml
