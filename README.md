@@ -325,14 +325,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 ⭐ Se este projeto te ajudou, considere dar uma estrela!
-```
 
----
 
-### **⚖️ Passo 3: Criar `LICENSE`**
-
-**Arquivo:** `LICENSE`
-```
 MIT License
 
 Copyright (c) 2026 Enzo Molinaro
