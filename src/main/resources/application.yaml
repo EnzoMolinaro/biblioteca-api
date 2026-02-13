@@ -29,3 +29,12 @@ server:
   error:
     include-message: always
     include-binding-errors: always
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
